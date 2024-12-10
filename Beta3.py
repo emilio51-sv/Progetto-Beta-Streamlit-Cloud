@@ -1,3 +1,6 @@
+import sys
+sys.modules['chromadb'] = None
+
 import streamlit as st
 import os
 from crewai import Crew, Agent, Task, Process
