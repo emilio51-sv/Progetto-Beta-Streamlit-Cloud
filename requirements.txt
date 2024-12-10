@@ -1,0 +1,6 @@
+streamlit
+pysqlite3
+crewai
+langchain-openai
+setuptools
+pandas
