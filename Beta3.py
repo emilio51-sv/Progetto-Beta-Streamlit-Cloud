@@ -1,5 +1,6 @@
+import pysqlite3
 import sys
-sys.modules['chromadb'] = None
+sys.modules['sqlite3'] = pysqlite3
 
 import streamlit as st
 import os
