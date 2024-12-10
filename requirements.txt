@@ -1,5 +1,7 @@
 streamlit
-crewai==0.28.8
+crewai
 langchain-openai
 setuptools
 pandas
+pysqlite3_binary
+openpyxl
