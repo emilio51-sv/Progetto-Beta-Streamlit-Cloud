@@ -1,12 +1,14 @@
 import pysqlite3
 import sys
 sys.modules['sqlite3'] = pysqlite3
+import os
+import pandas as pd
+import json
+from crewai import Crew, Agent, Task, Process
 
 import streamlit as st
+
 import os
-from crewai import Crew, Agent, Task, Process
-from langchain_openai import ChatOpenAI
-import pandas as pd
 
 # Load the OpenAI API key from Streamlit secrets
 openai_api_key = st.secrets["OPENAI_API_KEY"]
